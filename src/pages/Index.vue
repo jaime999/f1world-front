@@ -1,17 +1,22 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page>
+    <div class="row q-pa-md">
+      <div class="col-4">
+        <clasification></clasification>
+      </div>
+      <div class="col-6"></div>
+    </div>
   </q-page>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
+import clasification from '../components/MainPage/clasification.vue';
 
 export default defineComponent({
   name: 'PageIndex',
+  components: {
+    clasification,
+  },
 });
 </script>

@@ -56,12 +56,12 @@ export default {
   background-color: $primary;
   font-size: 18px;
   padding: 0;
-}
-
 .cursor-pointer {
   min-height: inherit;
   &:hover {
     background-color: $primary-hover;
   }
 }
+}
+
 </style>
